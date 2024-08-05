@@ -35,7 +35,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I'm a dedicated Software and Web Developer with a passion for crafting dynamic and responsive front-end experiences. My expertise lies in building user-friendly interfaces and seamless web applications. With a strong foundation in data structures and algorithms, I excel in critical problem-solving and delivering efficient, high-quality solutions.
+          I&apos;m a dedicated Software and Web Developer with a passion for crafting dynamic and responsive front-end experiences. My expertise lies in building user-friendly interfaces and seamless web applications. With a strong foundation in data structures and algorithms, I excel in critical problem-solving and delivering efficient, high-quality solutions.
           </p>
           <div>
             <Link
