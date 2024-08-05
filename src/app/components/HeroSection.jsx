@@ -6,8 +6,15 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const HeroSection = () => {
+  const handelClick = (e)=>{
+    e.preventDefault();
+    const element = document.querySelector("#contact");
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
   return (
-    <section className="lg:py-16 mt-20">
+    <section className="lg:py-16 mt-20" id="hero-section">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -43,6 +50,7 @@ const HeroSection = () => {
             <Link
               href="/#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+              onClick={e=>handelClick(e)}
             >
               Hire Me
             </Link>
