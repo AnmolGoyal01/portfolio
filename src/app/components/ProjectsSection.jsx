@@ -11,8 +11,8 @@ const projectsData = [
     description: "Portfolio website for Web Developer",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/AnmolGoyal01/portfolio",
-    previewUrl: "https://anmolgoyal.me/",
+    gitUrl: "/",
+    previewUrl: "/",
   },
   {
     id: 2,
