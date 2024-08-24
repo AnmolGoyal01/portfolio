@@ -9,11 +9,25 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Next JS</li>
+        <li>MongoDB</li>
+        <li>Express JS</li>
         <li>React JS</li>
+        <li>Node JS</li>
+        <li>Next JS</li>
+        <li>PostgreSql</li>
         <li>JavaScript</li>
         <li>Tailwind CSS</li>
-        <li>Node.js</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Experiences",
+    id: "experience",
+    content: (
+      <ul className="list-disc pl-2">
+      <li>
+         Software Developer Intern at <a href="https://www.linkedin.com/showcase/turiasoftware/" target="_blank" className="text-blue-500">Turia</a> where I worked on developing web applications using React JS, Node JS, and PostgreSQL.
+      </li>
       </ul>
     ),
   },
@@ -24,17 +38,6 @@ const TAB_DATA = [
       <p className=" ">
         I am currently pursuing Bachelors of Technology in Electrical Engineering from Delhi Technological University.
       </p>
-    ),
-  },
-  {
-    title: "Currently Learning",
-    id: "currentlyLearning",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express js</li>
-        <li>Full Stack development</li>
-      </ul>
     ),
   },
 ];
@@ -71,18 +74,18 @@ const AboutSection = () => {
               Skills{" "}
             </TabButton>
             <TabButton
+              selectTab={() => handleTabChange("experience")}
+              active={tab === "experience"}
+            >
+              {" "}
+              Experiences{" "}
+            </TabButton>
+            <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
               {" "}
               Education{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("currentlyLearning")}
-              active={tab === "currentlyLearning"}
-            >
-              {" "}
-              Currently Learning{" "}
             </TabButton>
           </div>
           <div className="mt-8">
