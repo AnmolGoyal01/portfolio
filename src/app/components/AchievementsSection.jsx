@@ -17,7 +17,7 @@ const achievementsList = [
   },
   {
     metric: "DSA Problems",
-    value: "500",
+    value: "600",
     postfix: "+",
   },
   {
