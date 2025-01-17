@@ -22,7 +22,8 @@ const projectsData = [
     description: "Full-stack Social Media Platform using MERN stack with React frontend, CRUD operations, JWT authentication, and optimized media via Cloudinary.",
     image: "/images/projects/7.jpg",
     tag: ["All","Full-Stack","Frontend", "Backend"],
-    gitUrl: "https://github.com/AnmolGoyal01/social-media-backend",
+    gitUrl: "https://github.com/AnmolGoyal01/social-media-frontend",
+    otherLink: "https://github.com/AnmolGoyal01/social-media-backend",
     stack : ["Node.js", "Express.js", "React.js"],
   },
   {
