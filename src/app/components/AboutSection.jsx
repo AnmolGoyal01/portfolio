@@ -14,9 +14,12 @@ const TAB_DATA = [
         <li>React JS</li>
         <li>Node JS</li>
         <li>Next JS</li>
-        <li>PostgreSql</li>
+        <li>MySql, PostgreSql</li>
         <li>JavaScript</li>
-        <li>Tailwind CSS</li>
+        <li>Typescript</li>
+        <li>C/C++</li>
+        <li>Python</li>
+        <li>Devops</li>
       </ul>
     ),
   },
