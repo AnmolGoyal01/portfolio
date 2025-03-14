@@ -44,7 +44,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I&apos;m a dedicated Software and Web Developer with a passion for crafting dynamic and responsive front-end experiences. My expertise lies in building user-friendly interfaces and seamless web applications. With a strong foundation in data structures and algorithms, I excel in critical problem-solving and delivering efficient, high-quality solutions.
+          I&apos;m a passionate Full-Stack Developer who loves turning ideas into powerful, user-centric web applications. With expertise in both frontend and backend, I craft seamless digital experiences that are efficient, scalable, and intuitive. My strong foundation in data structures and algorithms enables me to tackle complex problems and optimize performance. Whether it's designing sleek UIs or architecting robust backend systems, I thrive on building solutions that make an impact.
           </p>
           <div>
             <Link
@@ -55,7 +55,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1fYJfRPZ_x7DXbIGxUS3Hy7z7jp8b0LnB/view?usp=sharing"
+              href="https://drive.google.com/file/d/1CsotIgevsxC2zUn9l167jDW4K3H5EZEO/view?usp=sharing"
               target="-"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
