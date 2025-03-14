@@ -44,7 +44,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I&apos;m a passionate Full-Stack Developer who loves turning ideas into powerful, user-centric web applications. With expertise in both frontend and backend, I craft seamless digital experiences that are efficient, scalable, and intuitive. My strong foundation in data structures and algorithms enables me to tackle complex problems and optimize performance. Whether it's designing sleek UIs or architecting robust backend systems, I thrive on building solutions that make an impact.
+          I&apos;m a passionate Full-Stack Developer who loves turning ideas into powerful, user-centric web applications. With expertise in both frontend and backend, I craft seamless digital experiences that are efficient, scalable, and intuitive. My strong foundation in data structures and algorithms enables me to tackle complex problems and optimize performance. Whether it&apos;s designing sleek UIs or architecting robust backend systems, I thrive on building solutions that make an impact.
           </p>
           <div>
             <Link
