@@ -9,14 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>MongoDB</li>
-        <li>Express JS</li>
-        <li>React JS</li>
-        <li>Node JS</li>
+        <li>JavaScript, Typescript</li>
+        <li>MERN Stack</li>
         <li>Next JS</li>
-        <li>MySql, PostgreSql</li>
-        <li>JavaScript</li>
-        <li>Typescript</li>
+        <li>Java</li>
+        <li>Spring Boot</li>
+        <li>SQL, No SQL Databases</li>
         <li>C/C++</li>
         <li>Python</li>
         <li>Devops</li>
@@ -66,8 +64,9 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with React, JavaScript, Redux Toolkit, Tailwind, HTML, CSS, and Git. I am a quick learner and I am always
+            responsive and scalable web applications. I have experience
+            working with React.js, TypeScript, Redux, Node.js, Java, Spring Boot and Git/GitHub.
+            I am a quick learner and a great problem solver and I am always
             looking to expand my knowledge and skill set. I am a team player and
             I am excited to work with others to create amazing applications.
           </p>
