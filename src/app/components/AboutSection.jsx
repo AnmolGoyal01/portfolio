@@ -29,7 +29,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
       <li>
-         Software Developer Intern at <a href="https://www.linkedin.com/showcase/turiasoftware/" target="_blank" className="text-blue-500">Turia</a> where I worked on developing web applications using React JS, Node JS, and PostgreSQL.
+         Backend Developer at <a href="https://www.linkedin.com/company/genwiseofficial" target="_blank" className="text-blue-500">Genwise</a>, working on building and optimizing microservices using Java Spring Boot.
+      </li>
+      <li>
+         Software Developer Intern at <a href="https://www.linkedin.com/showcase/turiasoftware/" target="_blank" className="text-blue-500">Turia</a> where I worked on development of web applications using React and Node JS.
       </li>
       </ul>
     ),
